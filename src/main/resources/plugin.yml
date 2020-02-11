@@ -1,4 +1,4 @@
-name: Toolsmithutils
+name: ToolsmithUtils
 version: @version@
 main: com.github.nashi2603.toolsmithutils.Toolsmithutils
 api-version: 1.13
