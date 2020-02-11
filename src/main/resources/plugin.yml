@@ -1,0 +1,6 @@
+name: Toolsmithutils
+version: @version@
+main: com.github.nashi2603.toolsmithutils.Toolsmithutils
+api-version: 1.13
+authors: [nashi2603]
+description: Toolsmith utilities.
