@@ -8,10 +8,20 @@ public final class Toolsmithutils extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         this.saveDefaultConfig();
+
+        // Load command
+        getCommand("tsu").setExecutor(new TsuCmd_tsu(this));
+
+        // Load listener
+        new TsuLsnr_topmenu(this);
+
+        getLogger().info("ToolsmithUtils enabled. Hello!");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        this.saveConfig();
+        getLogger().info("ToolsmithUtils disabled. GoodBye!");
     }
 }

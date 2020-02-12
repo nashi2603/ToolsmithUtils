@@ -4,3 +4,9 @@ main: com.github.nashi2603.toolsmithutils.Toolsmithutils
 api-version: 1.13
 authors: [nashi2603]
 description: Toolsmith utilities.
+commands:
+  tsu:
+    description: ToolsmithUtils open top GUI menu.
+    usage: /<command>
+    permission: toolsmithutils.cmd.tsu
+    permission-message: You do not have permission to do that!

@@ -1,0 +1,25 @@
+# Weapon level limit
+default_levellimit: 100
+
+# first level exp
+default_firstexp: 100
+
+# Exp / level rate
+# Default rate 1.05 ( LEVEL -1 EXP * 1.05 )
+default_exprate: 1.05
+
+# Exp items
+# item(1) = exp(1)
+expitems:
+  item:
+    - COAL
+    - IRON_INGOT
+    - GOLD_INGOT
+    - DIAMOND
+    - EMERALD
+  exp:
+    - 1
+    - 5
+    - 10
+    - 50
+    - 25
