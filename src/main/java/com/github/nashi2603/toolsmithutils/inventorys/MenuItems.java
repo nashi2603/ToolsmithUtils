@@ -1,10 +1,10 @@
-package com.github.nashi2603.toolsmithutils;
+package com.github.nashi2603.toolsmithutils.inventorys;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public class TsuMenuItems {
+public class MenuItems {
     // Exit button ItemStack
     public ItemStack exitbtn() {
         ItemStack itemexitbtn = new ItemStack(Material.BARRIER);

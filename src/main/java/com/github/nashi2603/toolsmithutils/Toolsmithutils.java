@@ -1,5 +1,8 @@
 package com.github.nashi2603.toolsmithutils;
 
+import com.github.nashi2603.toolsmithutils.cmds.*;
+import com.github.nashi2603.toolsmithutils.listeners.*;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Toolsmithutils extends JavaPlugin {
@@ -10,10 +13,10 @@ public final class Toolsmithutils extends JavaPlugin {
         this.saveDefaultConfig();
 
         // Load command
-        getCommand("tsu").setExecutor(new TsuCmd_tsu(this));
+        getCommand("tsu").setExecutor(new Tsu(this));
 
         // Load listener
-        new TsuLsnr_topmenu(this);
+        new Topmenu(this);
 
         getLogger().info("ToolsmithUtils enabled. Hello!");
     }
